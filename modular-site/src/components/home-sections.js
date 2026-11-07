@@ -28,7 +28,7 @@ export function planSection(plans) {
 }
 
 export function comparisonSection() {
-  return `<section class="section comparison-section" aria-labelledby="comparison-title"><div class="container comparison-section__layout"><div class="comparison-section__copy"><span class="comparison-section__eyebrow">PRICE COMPARISON</span><h2 id="comparison-title">판매 조건이 정말 같은지<br>꼭 확인하세요</h2><div class="comparison-section__rule"></div><p>휴대폰 가격은 지원금만으로 결정되지 않습니다. 요금제와 부가서비스, 중고폰 반납, 제휴카드 조건까지 함께 살펴야 실제 구매 부담을 비교할 수 있습니다.</p><p class="comparison-section__promise">인생네폰은 복잡한 조건을 쉽게 확인하고, 내게 맞는 선택을 할 수 있도록 안내합니다.</p></div><figure class="comparison-section__visual"><img src="./assets/비교.png" alt="일반 매장과 인생네폰의 휴대폰 판매 조건 비교 예시" loading="lazy" decoding="async"><figcaption>※ 이미지의 기종과 금액은 이해를 돕기 위한 예시입니다.</figcaption></figure></div></section>`;
+  return `<section class="section comparison-section" aria-labelledby="comparison-title"><div class="container comparison-section__layout"><div class="comparison-section__copy"><span class="comparison-section__eyebrow">PRICE COMPARISON</span><h2 id="comparison-title">판매 조건이 정말 같은지<br>꼭 확인하세요</h2><div class="comparison-section__rule"></div><p>휴대폰 가격은 지원금만으로 결정되지 않습니다. 요금제와 부가서비스, 중고폰 반납, 제휴카드 조건까지 함께 살펴야 실제 구매 부담을 비교할 수 있습니다.</p><p class="comparison-section__promise">인생네폰은 복잡한 조건을 쉽게 확인하고, 내게 맞는 선택을 할 수 있도록 안내합니다.</p></div><figure class="comparison-section__visual"><img src="./assets/home/price-comparison.png" alt="일반 매장과 인생네폰의 휴대폰 판매 조건 비교 예시" loading="lazy" decoding="async"><figcaption>※ 이미지의 기종과 금액은 이해를 돕기 위한 예시입니다.</figcaption></figure></div></section>`;
 }
 
 export function eventSection() {
