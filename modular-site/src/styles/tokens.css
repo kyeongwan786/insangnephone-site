@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  --color-navy: #071d39;
+  --color-navy-2: #0b2b51;
+  --color-yellow: #ffcc00;
+  --color-yellow-deep: #ffc400;
+  --color-blue: #073be0;
+  --color-ink: #111a2d;
+  --color-sub: #687080;
+  --color-line: #e4e7ed;
+  --color-paper: #fff;
+  --color-section: #f7f8fa;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+  --shadow-card: 0 2px 8px rgb(14 30 55 / 4%);
+  --font-ui: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}

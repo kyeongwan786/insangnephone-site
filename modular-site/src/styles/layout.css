@@ -1,0 +1,18 @@
+.site { width:100%; max-width:none; margin:0; overflow:hidden; background:var(--color-paper); }
+:root { --page-gutter:24px; --page-content-width:1360px; }
+.container { width:calc(100% - var(--page-gutter) - var(--page-gutter)); max-width:var(--page-content-width); margin-inline:auto; }
+.section { padding-block:44px; }
+.section--muted { background:linear-gradient(120deg,#f7f8fa,#fff); }
+.section-heading { display:flex; align-items:center; gap:16px; margin:0 0 12px 4px; }
+.section-heading::before { content:""; width:7px; height:32px; flex:0 0 7px; background:var(--color-yellow); }
+.section-heading h2 { margin:0; font-size:24px; line-height:1.2; font-weight:650; letter-spacing:-.035em; }
+.section-lead { margin:0 0 22px 27px; color:#656d79; font-family:"Apple SD Gothic Neo", "Malgun Gothic", sans-serif; font-size:13px; font-weight:400; line-height:1.65; letter-spacing:-.01em; white-space:pre-line; }
+.section-top { display:flex; justify-content:space-between; align-items:center; gap:18px; margin-bottom:24px; }
+@media(min-width:1100px) {
+  .section-heading h2 { font-size:27px; }
+  .section-lead { font-size:14px; }
+  .review-card p { font-size:14px; }
+}
+.site { border-radius:14px; box-shadow:0 10px 36px rgb(14 30 55 / 10%); }
+.site { border-radius:0; box-shadow:none; background:#fff; }
+.site-header { position:relative; width:100%; margin:0; background:#fff; }
